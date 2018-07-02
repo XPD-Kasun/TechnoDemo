@@ -8,13 +8,15 @@ body{
 	margin:0;
 }
 .container{
-width:1920px;
-height:1080px;transform-origin:top left;
-	transform:scale(0.5);
+position:fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
 }
 .ifr{
 width:100%;
-height:1080px;
+height:100%;
 border:none;
 }
 </style>
@@ -22,6 +24,8 @@ border:none;
 <script type="text/javascript" src="cordova.js"></script>
 </head>
 <body>
+<div class="container">
 <iframe class="ifr" src="http://203.143.20.94/technocafe/"></iframe>
+</div>
 </body>
 </html>
