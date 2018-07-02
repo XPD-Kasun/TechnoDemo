@@ -27,6 +27,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-	<preference name="orientation" value="landscape" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="true" />
    
 </widget>
