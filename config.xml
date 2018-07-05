@@ -29,5 +29,5 @@
     <allow-intent href="geo:*" />
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" value="true" />
-   
+   <icon src="coffee.png" />
 </widget>
